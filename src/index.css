@@ -28,14 +28,15 @@ code {
   gap: 20px;
   
 }
-.card {
-  
+.card {  
+  background: linear-gradient(300deg, blue, black);
+     box-shadow: 4px 4px 10px white;
+     backdrop-filter: blur(10px);
+
   align-items: center;
 }
 
-
-
-.filtro{
+.busqueda{
   width: 60%;
   height: 20px;
   text-align: center;
@@ -45,9 +46,7 @@ code {
   margin: 5%;
   cursor: pointer;
 
-  
-
-}
+  }
 
 .header {
   width: 100%;
