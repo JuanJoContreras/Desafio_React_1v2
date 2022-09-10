@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-function MiAppi() {
+function MiApi() {
   // 3.
   // Estado de los Datos.  
   // Callback se llama en el montaje
@@ -16,9 +16,8 @@ function MiAppi() {
     }, []);
   
     // 7. Captura en el Dom del componente item.
-    const Datos = ({item}) => <p className="card">{item.content}/ {item.title}</p>      // Captura de map (item) imprime(item.content) //Por cada item que recorra el map imprime un parrafo con el contenido del item. // Imprime el item.content
-   
-
+    const Datos = ({item}) => <p className="card">{item.content} {item.title}</p> // Captura de map (item) imprime(item.content) //Por cada item que recorra el map imprime un parrafo con el contenido del item. // Imprime el item.content
+    
     // 1. Función que consulta la API
     const consultarInformacion = async () => {
       const url = 'https://www.feriadosapp.com/api/laws.json';      
@@ -73,4 +72,4 @@ function MiAppi() {
       </div>
     );
   }
-  export default MiAppi;
+  export default MiApi;

@@ -1,4 +1,4 @@
-import MiAppi from "./components/MiAppi";
+import MiApi from "./components/MiApi";
 import Header from "./components/Header";
 
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <Header />
-      <MiAppi />
+      <MiApi />
     </div>
   );
 }
