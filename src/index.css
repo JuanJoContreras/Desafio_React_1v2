@@ -29,9 +29,12 @@ code {
   
 }
 .card {  
+  display: flexbox;
+  flex-direction: column;
   background: linear-gradient(300deg, blue, black);
-     box-shadow: 4px 4px 10px white;
-     backdrop-filter: blur(10px);
+  box-shadow: 4px 4px 10px white;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
 
   align-items: center;
 }
